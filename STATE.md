@@ -1,18 +1,15 @@
 # GSD State
 
 ## Current Task
-- Workspace setup for House of Appetite website.
+- Wait for the user to provide the GitHub repository URL to push the code.
 
 ## Completed
-- Created `index.html` with landing page structure and styling elements.
-- Created `menu.html` with full interactive menu and category tabs.
-- Created `css/style.css` containing all design tokens, animations, and responsive rules.
-- Created `js/main.js` for scroll effects, tab switching, and scroll reveal animations.
-- Created `README.md` with file structure and setup instructions.
+- Created `index.html`, `menu.html`, `css/style.css`, `js/main.js`, and `README.md`.
+- Fixed mobile browser dark mode color inversion by adding `color-scheme: light;` meta tags and CSS rules.
+- Initialized local Git repository and committed all files.
 
 ## Next Steps
-- Verify website layout and animations by opening `index.html` in a browser.
-- Set up backend or online ordering system if desired (as outlined in README).
+- Push the repository to GitHub once the remote URL is provided.
 
 ## Open Issues
 - None at this time.
