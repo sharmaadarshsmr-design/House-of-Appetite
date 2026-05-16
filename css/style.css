@@ -96,7 +96,7 @@ body {
 }
 .btn-ghost {
   background: transparent;
-  color: var(--wood-dark);
+  color: white;
   border: 1.5px solid var(--wood-light);
 }
 .btn-ghost:hover {
@@ -291,29 +291,29 @@ body {
 .hero-scroll {
   position: absolute;
   bottom: 2rem;
-  left: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: 0.5rem;
-  z-index: 2;
+  gap: 1rem;
+  z-index: 10;
 }
 .hero-scroll span {
   font-size: 0.7rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--text-light);
-  writing-mode: vertical-rl;
 }
 .scroll-line {
-  width: 1px;
-  height: 60px;
-  background: linear-gradient(to bottom, var(--wood-light), transparent);
+  width: 40px;
+  height: 1px;
+  background: linear-gradient(to right, var(--wood-light), transparent);
   animation: scrollPulse 2s ease infinite;
 }
 @keyframes scrollPulse {
-  0%, 100% { opacity: 0.4; transform: scaleY(1); }
-  50% { opacity: 1; transform: scaleY(1.2); }
+  0%, 100% { opacity: 0.4; transform: scaleX(1); }
+  50% { opacity: 1; transform: scaleX(1.4); }
 }
 
 /* ========== ANTIGRAVITY BADGE ========== */
