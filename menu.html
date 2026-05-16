@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu · House of Appetite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta name="color-scheme" content="light">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">
+      <a href="index.html" style="text-decoration:none"><span class="logo-text">House of Appetite</span></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="index.html#ambience">Ambience</a></li>
+      <li><a href="index.html#contact">Visit Us</a></li>
+    </ul>
+    <a href="index.html#contact" class="nav-cta">Visit Us</a>
+    <button class="nav-hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <!-- MENU HERO -->
+  <section class="menu-hero">
+    <h1>Our <em>Menu</em></h1>
+    <p>Freshly crafted · Asian fusion · Global flavours · Matunga, Mumbai</p>
+    <div style="position:absolute;inset:0;pointer-events:none;overflow:hidden">
+      <span style="position:absolute;top:20%;right:5%;font-size:5rem;opacity:0.08;">🌿</span>
+      <span style="position:absolute;bottom:10%;right:15%;font-size:4rem;opacity:0.08;">🍃</span>
+      <span style="position:absolute;top:30%;left:5%;font-size:3rem;opacity:0.08;">🌱</span>
+    </div>
+  </section>
+
+  <!-- TABS -->
+  <div class="menu-tabs" id="menu-tabs">
+    <div class="menu-tabs-inner">
+      <button class="tab-btn active" data-tab="burgers">🍔 Burgers</button>
+      <button class="tab-btn" data-tab="sandwiches">🥪 Sandwiches</button>
+      <button class="tab-btn" data-tab="fries">🍟 Fries & Poppers</button>
+      <button class="tab-btn" data-tab="bao">🫓 Bao</button>
+      <button class="tab-btn" data-tab="dumplings">🥟 Dumplings</button>
+      <button class="tab-btn" data-tab="tenders">🍗 Chicken</button>
+      <button class="tab-btn" data-tab="ramen">🍜 Ramen</button>
+      <button class="tab-btn" data-tab="starters">🥙 Starters</button>
+      <button class="tab-btn" data-tab="drinks">🧃 Drinks</button>
+    </div>
+  </div>
+
+  <!-- ===== BURGERS ===== -->
+  <section class="menu-section active" id="burgers">
+    <h2 class="menu-category-title">Burgers</h2>
+    <div class="menu-divider"></div>
+    <div class="section-sub-grid">
+      <div>
+        <p class="sub-label">🌿 Veg Burgers</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">OG Aloo Tikki Burger</span><span class="menu-card-price">₹199</span></div>
+            <p class="menu-card-desc">Crispy potato patty layered with signature mayo, fresh iceberg lettuce and a soft toasted bun.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Peri-Peri Aloo Tikki Burger</span><span class="menu-card-price">₹203</span></div>
+            <p class="menu-card-desc">Peri-peri spiced potato patty topped with crunchy coleslaw and iceberg lettuce in a soft bun.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Chipotle Aloo Tikki Burger</span><span class="menu-card-price">₹203</span></div>
+            <p class="menu-card-desc">Crispy aloo tikki layered with smoky chipotle sauce, fresh lettuce and creamy mayo.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">BBQ Aloo Tikki Burger</span><span class="menu-card-price">₹226</span></div>
+            <p class="menu-card-desc">Crispy potato patty glazed with sweet and smoky BBQ sauce, finished with creamy coleslaw.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Mushroom Burger</span><span class="menu-card-price">₹226</span></div>
+            <p class="menu-card-desc">Savory mushroom patty with melted cheese and herbs, paired with coleslaw and iceberg lettuce.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Paneer Tikki Burger</span><span class="menu-card-price">₹226</span></div>
+            <p class="menu-card-desc">Golden fried paneer patty seasoned with classic spices, layered with fresh coleslaw.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Butter Paneer Tikki Burger</span><span class="menu-card-price">₹246</span></div>
+            <p class="menu-card-desc">Crispy paneer tikki tossed in rich, buttery makhani sauce, layered with fresh lettuce and creamy mayo.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Chipotle Paneer Tikki Burger</span><span class="menu-card-price">₹246</span></div>
+            <p class="menu-card-desc">Crispy paneer tikki layered with smoky chipotle sauce, fresh lettuce and creamy mayo.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="sub-label">🍗 Chicken Burgers</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">OG Chicken Burger</span><span class="menu-card-price">₹303</span></div>
+            <p class="menu-card-desc">Crispy fried chicken layered with signature mayo and creamy slaw, served in a soft toasted bun.</p>
+            <span class="menu-card-tag nonveg">Non-Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Peri-Peri Chicken Burger</span><span class="menu-card-price">₹309</span></div>
+            <p class="menu-card-desc">Crunchy fried chicken tossed in fiery peri-peri sauce, balanced with creamy slaw in a soft bun.</p>
+            <span class="menu-card-tag nonveg">Non-Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">BBQ Chicken Burger</span><span class="menu-card-price">₹336</span></div>
+            <p class="menu-card-desc">Crispy fried chicken glazed with sticky BBQ sauce, finished with creamy slaw in a soft bun.</p>
+            <span class="menu-card-tag nonveg">Non-Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Chipotle Chicken Burger</span><span class="menu-card-price">₹336</span></div>
+            <p class="menu-card-desc">Juicy chicken patty layered with smoky chipotle sauce, fresh lettuce and creamy mayo.</p>
+            <span class="menu-card-tag nonveg">Non-Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Butter Chicken Burger</span><span class="menu-card-price">₹336</span></div>
+            <p class="menu-card-desc">Juicy chicken patty coated in rich, buttery makhani sauce, layered with fresh lettuce and creamy mayo.</p>
+            <span class="menu-card-tag nonveg">Non-Veg</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SANDWICHES & CROISSANTS ===== -->
+  <section class="menu-section" id="sandwiches">
+    <h2 class="menu-category-title">Sandwiches & <em>Croissants</em></h2>
+    <div class="menu-divider"></div>
+    <div class="section-sub-grid">
+      <div>
+        <p class="sub-label">🥪 Sandwiches</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Bread Butter Sandwich</span><span class="menu-card-price">₹86</span></div>
+            <p class="menu-card-desc">Lightly toasted white bread layered with premium salted butter. Simple and comforting.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Jam Butter Sandwich</span><span class="menu-card-price">₹96</span></div>
+            <p class="menu-card-desc">Fresh bread layered with creamy butter and sweet fruit jam for a nostalgic taste.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Cheese Chutney Sandwich</span><span class="menu-card-price">₹96</span></div>
+            <p class="menu-card-desc">Fresh bread layered with spicy mint chutney and melted cheese slice.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Garlic Bread Mozzarella</span><span class="menu-card-price">₹199</span></div>
+            <p class="menu-card-desc">Toasted garlic bread topped with melted mozzarella and Italian herbs.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Cheese Chilli Toast</span><span class="menu-card-price">₹203</span></div>
+            <p class="menu-card-desc">Thick toasted bread loaded with melted cheese, green chillies and mixed peppers.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Chicken Junglee Sandwich</span><span class="menu-card-price">₹203</span></div>
+            <p class="menu-card-desc">Crispy fried chicken tossed in Junglee spices with crunchy Junglee coleslaw and onions.</p>
+            <span class="menu-card-tag nonveg">Non-Veg</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="sub-label">🥐 Croissants</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Veg Junglee Croissant</span><span class="menu-card-price">₹246</span></div>
+            <p class="menu-card-desc">Flaky butter croissant stuffed with paneer cubes, mixed peppers, onions, oregano and chilli flakes.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Veg Italian Croissant</span><span class="menu-card-price">₹255</span></div>
+            <p class="menu-card-desc">Buttery croissant filled with paneer cubes, mixed peppers, onions, Italian herbs and rich pizza-pasta sauce.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Veg Pesto Croissant</span><span class="menu-card-price">₹255</span></div>
+            <p class="menu-card-desc">Flaky croissant loaded with paneer cubes, mixed peppers, onions and aromatic basil pesto sauce.</p>
+            <span class="menu-card-tag">Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Chicken Junglee Croissant</span><span class="menu-card-price">₹266</span></div>
+            <p class="menu-card-desc">Buttery croissant filled with crispy chicken, mixed peppers, onions, oregano, chilli flakes.</p>
+            <span class="menu-card-tag nonveg">Non-Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Chicken Italian Croissant</span><span class="menu-card-price">₹266</span></div>
+            <p class="menu-card-desc">Soft butter croissant stuffed with juicy chicken chunks, mixed peppers, Italian herbs and pizza-pasta sauce.</p>
+            <span class="menu-card-tag nonveg">Non-Veg</span>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-header"><span class="menu-card-name">Chicken Pesto Croissant</span><span class="menu-card-price">₹275</span></div>
+            <p class="menu-card-desc">Flaky croissant filled with crispy chicken, mixed peppers, onions and aromatic pesto sauce.</p>
+            <span class="menu-card-tag nonveg">Non-Veg</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FRIES & POPPERS ===== -->
+  <section class="menu-section" id="fries">
+    <h2 class="menu-category-title">Fries & <em>Poppers</em></h2>
+    <div class="menu-divider"></div>
+    <div class="section-sub-grid">
+      <div>
+        <p class="sub-label">🍟 Fries & Loaded Fries</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Peri Peri Fries</span><span class="menu-card-price">₹156</span></div><p class="menu-card-desc">Golden fries tossed in fiery peri peri seasoning.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Jamaican Fries</span><span class="menu-card-price">₹156</span></div><p class="menu-card-desc">Crispy fries coated in Jamaican-style spice blend with a smoky kick.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Cajun Fries</span><span class="menu-card-price">₹165</span></div><p class="menu-card-desc">Classic fries tossed in bold Cajun seasoning.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Cheesy Fries</span><span class="menu-card-price">₹165</span></div><p class="menu-card-desc">Crispy fries loaded with rich, melted cheese sauce.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Honey Chilli Potato</span><span class="menu-card-price">₹165</span></div><p class="menu-card-desc">Crispy potato fingers tossed in honey chilli sauce with a glossy finish.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card" style="border-color: var(--gold-light)"><div class="menu-card-header"><span class="menu-card-name">Truffle Parmesan Fries</span><span class="menu-card-price">₹185</span></div><p class="menu-card-desc">Decent fries infused with aromatic truffle oil, finished with a sprinkle of Parmesan. Earthy and umami-rich.</p><span class="menu-card-tag">Chef's Special</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Veg Loaded Fries</span><span class="menu-card-price">₹195</span></div><p class="menu-card-desc">Crispy golden fries topped with a generous mix of sautéed vegetables, creamy cheese sauce and house seasoning.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken Loaded Fries</span><span class="menu-card-price">₹226</span></div><p class="menu-card-desc">Crunchy fries loaded with juicy seasoned chicken, rich cheese sauce and signature spices.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+        </div>
+      </div>
+      <div>
+        <p class="sub-label">🫑 Poppers</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Jalapeño Popper</span><span class="menu-card-price">₹190</span></div><p class="menu-card-desc">Crispy potato base loaded with mozzarella, jalapeño and green chilli, finished with chilli flakes and oregano.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Peri-Peri Popper</span><span class="menu-card-price">₹190</span></div><p class="menu-card-desc">Golden fried potato and mozzarella poppers tossed in fiery peri-peri glaze.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Cajun Popper</span><span class="menu-card-price">₹203</span></div><p class="menu-card-desc">Crispy potato and mozzarella poppers coated with bold Cajun seasoning and light herb finish.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Jamaican Popper</span><span class="menu-card-price">₹203</span></div><p class="menu-card-desc">Crunchy potato-mozzarella poppers infused with warm Jamaican spice rub and coriander aroma.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Mushroom Popper</span><span class="menu-card-price">₹226</span></div><p class="menu-card-desc">Crispy cheese-filled poppers loaded with mushrooms and herbs for a rich, earthy flavor.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Truffle Jalapeño Popper</span><span class="menu-card-price">₹246</span></div><p class="menu-card-desc">Crispy potato base loaded with mozzarella, jalapeño and green chilli, garnished with truffle oil. Crunchy outside, cheesy inside.</p><span class="menu-card-tag">Veg</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BAO ===== -->
+  <section class="menu-section" id="bao">
+    <h2 class="menu-category-title">Bao <em>Buns</em></h2>
+    <div class="menu-divider"></div>
+    <div class="section-sub-grid">
+      <div>
+        <p class="sub-label">🌿 Veg Bao</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Paneer Chilli Bao</span><span class="menu-card-price">₹195</span></div><p class="menu-card-desc">Soft steamed bao filled with chilli paneer, crunchy veggies and house sauce.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Manchurian Chilli Bao</span><span class="menu-card-price">₹195</span></div><p class="menu-card-desc">Crispy veg manchurian tossed in chilli sauce, packed inside fluffy bao buns.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Paneer BBQ Bao</span><span class="menu-card-price">₹203</span></div><p class="menu-card-desc">BBQ-glazed paneer stuffed in fluffy bao with fresh slaw and creamy dressing.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Gochujang Paneer Bao</span><span class="menu-card-price">₹203</span></div><p class="menu-card-desc">Paneer tossed in spicy Korean gochujang sauce, served in soft bao with slaw.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Manchurian BBQ Bao</span><span class="menu-card-price">₹203</span></div><p class="menu-card-desc">Veg manchurian coated in BBQ sauce with crunchy slaw in steamed bao.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Gochujang Manchurian Bao</span><span class="menu-card-price">₹203</span></div><p class="menu-card-desc">Veg manchurian tossed in bold gochujang sauce, served in soft bao buns.</p><span class="menu-card-tag">Veg</span></div>
+        </div>
+      </div>
+      <div>
+        <p class="sub-label">🍗 Non-Veg Bao</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken Chilli Bao</span><span class="menu-card-price">₹203</span></div><p class="menu-card-desc">Juicy chilli chicken packed in soft steamed bao with crunchy veggies.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken Manchurian Bao</span><span class="menu-card-price">₹213</span></div><p class="menu-card-desc">Crispy chicken manchurian tossed in house sauce, served inside fluffy bao.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken BBQ Bao</span><span class="menu-card-price">₹226</span></div><p class="menu-card-desc">BBQ-glazed chicken with slaw and creamy dressing in soft bao buns.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken Gochujang Bao</span><span class="menu-card-price">₹226</span></div><p class="menu-card-desc">Chicken tossed in spicy Korean gochujang sauce, loaded into soft bao buns.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DUMPLINGS ===== -->
+  <section class="menu-section" id="dumplings">
+    <h2 class="menu-category-title">Momo & <em>Dumplings</em></h2>
+    <div class="menu-divider"></div>
+    <div class="section-sub-grid">
+      <div>
+        <p class="sub-label">🌿 Veg Momo & Dumplings</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Veg Momo</span><span class="menu-card-price">₹199</span></div><p class="menu-card-desc">Steamed momos stuffed with garden-fresh vegetables and traditional seasoning.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Veg Pan-Tossed Momo</span><span class="menu-card-price">₹213</span></div><p class="menu-card-desc">Fried vegetable momos pan-seared till crispy and tossed in signature spicy sauce with garden-fresh veggies.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Veg Gyoza</span><span class="menu-card-price">₹246</span></div><p class="menu-card-desc">Pan-seared vegetable gyoza with ginger and soy aromatics, crisp outside and juicy inside.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Truffle Edamame Dumplings</span><span class="menu-card-price">₹246</span></div><p class="menu-card-desc">Steamed dumplings filled with smooth edamame mash, finished with rich truffle oil.</p><span class="menu-card-tag">Chef's Special</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Mushroom Dumplings</span><span class="menu-card-price">₹246</span></div><p class="menu-card-desc">Steamed dumplings stuffed with minced mushrooms, garlic and herbs for deep flavor.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Cheese Chilli Dumplings</span><span class="menu-card-price">₹246</span></div><p class="menu-card-desc">Steamed dumplings filled with melted cheese and sharp green chilli for a spicy indulgent bite.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Assorted Veg Dumplings</span><span class="menu-card-price">₹255</span></div><p class="menu-card-desc">Offer a diverse tasting experience with various fillings.</p><span class="menu-card-tag">Veg</span></div>
+        </div>
+      </div>
+      <div>
+        <p class="sub-label">🍗 Chicken Momo & Dumplings</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken Momo</span><span class="menu-card-price">₹226</span></div><p class="menu-card-desc">Classic steamed momos filled with juicy minced chicken and mild spices. Soft, flavorful and comforting.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken Charcoal Dumplings</span><span class="menu-card-price">₹235</span></div><p class="menu-card-desc">Steamed chicken dumplings with lightly smoky charcoal notes and rich filling.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken Pan-Tossed Momo</span><span class="menu-card-price">₹239</span></div><p class="menu-card-desc">Fried chicken momos pan-seared and tossed in a bold signature sauce, packed with juicy minced chicken.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken Gyoza</span><span class="menu-card-price">₹246</span></div><p class="menu-card-desc">Steamed dumplings filled with minced chicken, ginger and soy aromatics for authentic Asian flavor.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Suimai Dumplings</span><span class="menu-card-price">₹266</span></div><p class="menu-card-desc">Open-top steamed suimai dumplings with seasoned minced chicken served in light chicken stock.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Basil Chicken Dumplings</span><span class="menu-card-price">₹266</span></div><p class="menu-card-desc">Steamed chicken dumplings infused with fresh Thai basil and fragrant spices.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Sriracha Chicken Dumplings</span><span class="menu-card-price">₹266</span></div><p class="menu-card-desc">Steamed dumplings tossed in spicy sriracha infusion with a tangy chilli kick.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Assorted Chicken Dumplings</span><span class="menu-card-price">₹275</span></div><p class="menu-card-desc">Offer a diverse tasting experience with various fillings.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CHICKEN TENDERS & POPCORN ===== -->
+  <section class="menu-section" id="tenders">
+    <h2 class="menu-category-title">Chicken <em>Tenders & Popcorn</em></h2>
+    <div class="menu-divider"></div>
+    <div class="section-sub-grid">
+      <div>
+        <p class="sub-label">🍗 Chicken Popcorn</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Classic Chicken Popcorn</span><span class="menu-card-price">₹255</span></div><p class="menu-card-desc">Bite-sized crispy chicken popcorn with signature seasoning. Perfect for sharing or solo snacking.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Peri-Peri Chicken Popcorn</span><span class="menu-card-price">₹266</span></div><p class="menu-card-desc">Crispy chicken bites tossed in fiery peri-peri glaze for an extra spicy kick.</p><span class="menu-card-tag nonveg">Chef's Special</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Jamaican Chicken Popcorn</span><span class="menu-card-price">₹266</span></div><p class="menu-card-desc">Golden fried chicken popcorn coated with warm Jamaican spices.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Cajun Chicken Popcorn</span><span class="menu-card-price">₹266</span></div><p class="menu-card-desc">Crispy popcorn chicken tossed in bold Cajun seasoning with smoky notes.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">KFC-Kerala Fried Chicken Popcorn</span><span class="menu-card-price">₹266</span></div><p class="menu-card-desc">Herb and spice coated crispy chicken popcorn with timeless fried flavor.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">BBQ Chicken Popcorn</span><span class="menu-card-price">₹285</span></div><p class="menu-card-desc">Crispy chicken bites glazed with sticky BBQ sauce for rich flavor.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+        </div>
+      </div>
+      <div>
+        <p class="sub-label">🍗 Chicken Tenders</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Classic Chicken Tenders</span><span class="menu-card-price">₹255</span></div><p class="menu-card-desc">Juicy fried chicken tenders with signature crispy coating. Crunchy outside and tender inside.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Peri-Peri Chicken Tenders</span><span class="menu-card-price">₹266</span></div><p class="menu-card-desc">Golden fried chicken tenders tossed in fiery peri-peri glaze for a bold, spicy kick.</p><span class="menu-card-tag nonveg">Chef's Special</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Jamaican Chicken Tenders</span><span class="menu-card-price">₹266</span></div><p class="menu-card-desc">Crispy chicken tenders seasoned with warm Jamaican spice rub and deep flavor.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Cajun Chicken Tenders</span><span class="menu-card-price">₹266</span></div><p class="menu-card-desc">Bold Cajun-seasoned chicken tenders with a smoky crunch and juicy bite.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">KFC-Kerala Fried Chicken Tenders</span><span class="menu-card-price">₹266</span></div><p class="menu-card-desc">Herb and spice coated chicken tenders inspired by classic fried chicken flavors.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">BBQ Chicken Tenders</span><span class="menu-card-price">₹285</span></div><p class="menu-card-desc">Crispy chicken tenders glazed with sticky BBQ sauce for rich, smoky sweetness.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RAMEN ===== -->
+  <section class="menu-section" id="ramen">
+    <h2 class="menu-category-title">Ramen <em>Bowls</em></h2>
+    <div class="menu-divider"></div>
+    <div class="section-sub-grid">
+      <div>
+        <p class="sub-label">🌿 Veg Ramen</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Miso Ramen</span><span class="menu-card-price">₹345</span></div><p class="menu-card-desc">Warm, comforting ramen in a sour soy-miso broth with hakka noodles, baby corn, carrots, bok choy, mushrooms and toasted sesame oil.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Gochujang Ramen</span><span class="menu-card-price">₹356</span></div><p class="menu-card-desc">Spicy ramen in a rich gochujang broth with hakka noodles, baby corn, carrots, mushrooms, bok choy and toasted sesame oil.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Madras Curry Ramen</span><span class="menu-card-price">₹365</span></div><p class="menu-card-desc">Bold Indo-fusion ramen in an aromatic South Indian curry broth with hakka noodles, baby corn, carrots, mushrooms, bok choy.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Red Thai Curry Ramen</span><span class="menu-card-price">₹365</span></div><p class="menu-card-desc">Creamy and spicy ramen in red Thai curry coconut broth with hakka noodles, baby corn, carrots, mushrooms, bok choy.</p><span class="menu-card-tag">Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Green Thai Curry Ramen</span><span class="menu-card-price">₹365</span></div><p class="menu-card-desc">Fragrant green Thai curry ramen with coconut base, hakka noodles, baby corn, carrots, bok choy and coconut oil.</p><span class="menu-card-tag">Veg</span></div>
+        </div>
+      </div>
+      <div>
+        <p class="sub-label">🍗 Chicken Ramen</p>
+        <div class="menu-grid" style="grid-template-columns:1fr">
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken Miso Ramen</span><span class="menu-card-price">₹356</span></div><p class="menu-card-desc">Hearty ramen with seared chicken and egg in a sour soy-miso broth, hakka noodles, baby corn, carrots, bok choy and toasted sesame oil.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken Gochujang Ramen</span><span class="menu-card-price">₹365</span></div><p class="menu-card-desc">Spicy ramen with seared chicken and egg in gochujang broth, served with hakka noodles and vegetables.</p><span class="menu-card-tag nonveg">Fan Favourite</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken Madras Curry Ramen</span><span class="menu-card-price">₹375</span></div><p class="menu-card-desc">Fusion ramen with seared chicken and egg in bold Madras curry broth, hakka noodles, fresh vegetables.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken Red Thai Curry Ramen</span><span class="menu-card-price">₹375</span></div><p class="menu-card-desc">Creamy red Thai curry ramen with seared chicken and egg, hakka noodles, vegetables and coconut oil.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+          <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chicken Green Thai Curry Ramen</span><span class="menu-card-price">₹375</span></div><p class="menu-card-desc">Aromatic green Thai curry ramen with seared chicken, egg, hakka noodles, fresh vegetables and coconut oil.</p><span class="menu-card-tag nonveg">Non-Veg</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STARTERS ===== -->
+  <section class="menu-section" id="starters">
+    <h2 class="menu-category-title">Indo-Chinese & <em>Global Starters</em></h2>
+    <div class="menu-divider"></div>
+    <div class="menu-grid">
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Classic Hummus with Pita</span><span class="menu-card-price">₹203</span></div><p class="menu-card-desc">Smooth and creamy chickpea hummus blended with tahini, garlic and extra virgin olive oil, served with soft pita bread.</p><span class="menu-card-tag">Veg</span></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Falafel Bites</span><span class="menu-card-price">₹210</span></div><p class="menu-card-desc">Golden fried chickpea falafel bites seasoned with Mediterranean herbs, served with creamy hummus dip and warm pita bread.</p><span class="menu-card-tag">Chef's Special</span></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Babycorn Chilli</span><span class="menu-card-price">₹235</span></div><p class="menu-card-desc">Crispy fried baby corn tossed in a bold Indo-Chinese chilli sauce with sautéed aromatics.</p><span class="menu-card-tag">Veg</span></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Paneer Chilli</span><span class="menu-card-price">₹275</span></div><p class="menu-card-desc">Crispy paneer cubes tossed in spicy soy-chilli glaze with sautéed peppers and onions. A crowd-favorite Indo-Chinese starter.</p><span class="menu-card-tag">Veg</span></div>
+    </div>
+  </section>
+
+  <!-- ===== DRINKS ===== -->
+  <section class="menu-section" id="drinks">
+    <h2 class="menu-category-title">Drinks & <em>Coffee</em></h2>
+    <div class="menu-divider"></div>
+
+    <p class="sub-label" style="margin-bottom:1.5rem">🧃 Ice Tea, Mocktails & Coolers</p>
+    <div class="menu-grid" style="margin-bottom:3rem">
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Fresh Lime Water</span><span class="menu-card-price">₹59</span></div><p class="menu-card-desc">Freshly squeezed lime blended with chilled water, lightly sweetened and served ice-cold.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Fresh Lime Soda</span><span class="menu-card-price">₹69</span></div><p class="menu-card-desc">Fresh lime juice mixed with sparkling soda, perfectly balanced for a zesty, chilled drink.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Kuluki Sharbat</span><span class="menu-card-price">₹96</span></div><p class="menu-card-desc">Traditional shaken lemonade with green chilli and sabja seeds, chilled and refreshing.</p><span class="menu-card-tag">Bartender's Special</span></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Lemon Ice Tea</span><span class="menu-card-price">₹96</span></div><p class="menu-card-desc">Chilled black tea with a splash of lemon, light, tangy and revitalizing.</p><span class="menu-card-tag">Bartender's Special</span></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Peach Ice Tea</span><span class="menu-card-price">₹96</span></div><p class="menu-card-desc">Sweet peach-infused tea served over ice. Fruity and refreshing.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Strawberry Cooler</span><span class="menu-card-price">₹96</span></div><p class="menu-card-desc">Strawberry fruit crush blended with lemon soda and club soda, finished with mint leaves.</p><span class="menu-card-tag">Bartender's Special</span></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Green Apple Cooler</span><span class="menu-card-price">₹96</span></div><p class="menu-card-desc">Green apple fruit crush mixed with lemon soda, club soda, mint leaves and lemon slice.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Guava Cooler</span><span class="menu-card-price">₹96</span></div><p class="menu-card-desc">Guava fruit crush combined with lemon soda and club soda for a light, refreshing sip.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Spicy Guava Cooler</span><span class="menu-card-price">₹96</span></div><p class="menu-card-desc">Guava fruit crush with red chilli powder, lemon soda and club soda for a spice punch.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Rose Cooler</span><span class="menu-card-price">₹96</span></div><p class="menu-card-desc">Delicate rose-flavored cooler blended with lemon soda, club soda and mint.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Blue Lagoon</span><span class="menu-card-price">₹96</span></div><p class="menu-card-desc">Classic blue lagoon cooler made with citrus fruit crush, lemon soda and club soda.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Purple Punch</span><span class="menu-card-price">₹113</span></div><p class="menu-card-desc">Bartender's signature creation — ask for details!</p><span class="menu-card-tag">Bartender's Special</span></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Pink Paradise</span><span class="menu-card-price">₹149</span></div><p class="menu-card-desc">A refreshing guava fruit juice & strawberry crushed served chilled for a fruity, sweet escape.</p><span class="menu-card-tag">Bartender's Special</span></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Spicy Guava</span><span class="menu-card-price">₹159</span></div><p class="menu-card-desc">Tangy guava juice with red chilli powder, salt rim and a dash of Tabasco for a bold kick.</p><span class="menu-card-tag">Bartender's Special</span></div>
+    </div>
+
+    <p class="sub-label" style="margin-bottom:1.5rem">☕ Coffee</p>
+    <div class="menu-grid" style="margin-bottom:3rem">
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Hot Black Coffee</span><span class="menu-card-price">₹96</span></div><p class="menu-card-desc">Freshly brewed black coffee for pure coffee lovers.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Hot Coffee</span><span class="menu-card-price">₹113</span></div><p class="menu-card-desc">Freshly brewed milk coffee, simple and comforting.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Cold Coffee</span><span class="menu-card-price">₹149</span></div><p class="menu-card-desc">Chilled brewed espresso blended with milk for a smooth, refreshing coffee.</p><span class="menu-card-tag">Bartender's Special</span></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Oreo Cold Coffee</span><span class="menu-card-price">₹186</span></div><p class="menu-card-desc">Cold coffee blended with full-fat milk, Oreo crunch and rich coffee flavour.</p><span class="menu-card-tag">Bartender's Special</span></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Affogato Coffee</span><span class="menu-card-price">₹195</span></div><p class="menu-card-desc">Vanilla ice cream topped with hot black coffee for a perfect hot-cold contrast.</p></div>
+    </div>
+
+    <p class="sub-label" style="margin-bottom:1.5rem">🥛 Milk-Based Drinks & Shakes</p>
+    <div class="menu-grid">
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Strawberry Milkshake</span><span class="menu-card-price">₹176</span></div><p class="menu-card-desc">Rich and creamy milkshake made with real strawberry crush, blended smooth and served chilled.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Rose Milkshake</span><span class="menu-card-price">₹176</span></div><p class="menu-card-desc">Creamy milk-based rose drink infused with rose syrup and sabja seeds.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Oreo Shake</span><span class="menu-card-price">₹176</span></div><p class="menu-card-desc">Thick milkshake blended with crushed Oreo cookies and finished with chocolate drizzle.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Hazelnut Chocolate Shake</span><span class="menu-card-price">₹176</span></div><p class="menu-card-desc">Creamy chocolate shake blended with hazelnut syrup and topped with whipped cream.</p><span class="menu-card-tag">Bartender's Special</span></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Chocolate Milkshake</span><span class="menu-card-price">₹176</span></div><p class="menu-card-desc">Thick and creamy milkshake made with rich chocolate syrup, blended smooth and served chilled.</p></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Kulfi Falooda</span><span class="menu-card-price">₹176</span></div><p class="menu-card-desc">Classic kulfi faluda with rose syrup, vermicelli and sabja seeds for a nostalgic dessert drink.</p><span class="menu-card-tag">Bartender's Special</span></div>
+      <div class="menu-card"><div class="menu-card-header"><span class="menu-card-name">Brownie Milkshake</span><span class="menu-card-price">₹195</span></div><p class="menu-card-desc">Creamy chocolate milkshake blended with fudgy brownie chunks for a rich, dessert-style treat.</p><span class="menu-card-tag">Bartender's Special</span></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" style="margin-top:4rem">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" style="text-decoration:none"><span class="logo-text">House of Appetite</span></a>
+        <p>Asian fusion in the heart of Matunga</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <div class="footer-rating">
+        <span>★★★★★ 4.8 on Google</span>
+        <span>274 Reviews</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 House of Appetite · Matunga, Mumbai</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
